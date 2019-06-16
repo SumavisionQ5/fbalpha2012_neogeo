@@ -361,6 +361,16 @@ DRV		BurnDrvsamsho5d;
 DRV		BurnDrvsengok3d;
 DRV		BurnDrvsvcd;
 DRV		BurnDrvzupapad;
+DRV		BurnDrvmslug5nd;
+DRV		BurnDrvms5plusd;
+DRV		BurnDrvcthd2k3d;
+DRV		BurnDrvct2k3spd;
+DRV		BurnDrvkof10thd;
+DRV		BurnDrvkof99fd;
+DRV		BurnDrvkof2kfd;
+DRV		BurnDrvkof2k1fd;
+DRV		BurnDrvkof2k2fd;
+DRV		BurnDrvkof2k3fd;
 #undef DRV
 
 // Structure containing addresses of all drivers
@@ -725,4 +735,14 @@ static struct BurnDriver* pDriver[] = {
 	&BurnDrvsengok3d,			// Sengoku 3 / Sengoku Denshou 2001 (set 1, decrypted C)
 	&BurnDrvsvcd,				// SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)(decrypted C)
 	&BurnDrvzupapad,			// Zupapa! (decrypted C)
+	&BurnDrvmslug5nd,   		// Metal Slug 5 (fully decrypted)
+	&BurnDrvms5plusd,   		// Metal Slug 5 Plus (fully decrypted)
+	&BurnDrvcthd2k3d,   		// Crouching Tiger Hidden Dragon 2003 (fully decrypted)
+	&BurnDrvct2k3spd,   		// Crouching Tiger Hidden Dragon 2003 Super Plus (fully decrypted)
+	&BurnDrvkof10thd,   		// The King of Fighters 10th Anniversary (fully decrypted)
+	&BurnDrvkof99fd,   			// The King of Fighters '99 - Millennium Battle (fully decrypted)
+	&BurnDrvkof2kfd,   			// The King of Fighters 2000 (fully decrypted)
+	&BurnDrvkof2k1fd,   		// The King of Fighters 2001 (fully decrypted)
+	&BurnDrvkof2k2fd,   		// The King of Fighters 2002 (fully decrypted)
+	&BurnDrvkof2k3fd,   		// The King of Fighters 2003 (fully decrypted)
 };
