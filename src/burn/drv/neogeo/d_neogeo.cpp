@@ -16041,7 +16041,7 @@ STD_ROM_FN(samsh5hd)
 struct BurnDriver BurnDrvsamsh5hd = {
 	"samsh5hd", "samsho5", "neogeo", NULL, "2003",
 	"Samurai Shodown V / Samurai Spirits Zero (NGH-2700)(decrypted C)\0", NULL, "Yuki Enterprise / SNK Playmore", "Neo Geo",
-	L"Samurai Shodown V\0\u30B5\u30E0\u30E9\u30A4\u30B9\u30D4\u30EA\u30C3\u30C4\u96F6 (set 2, decrypted C)\0", NULL, NULL, NULL,
+	NULL, NULL, NULL, NULL,
 	BDF_GAME_WORKING | BDF_CLONE, 2, HARDWARE_PREFIX_CARTRIDGE | HARDWARE_SNK_NEOGEO | HARDWARE_SNK_ENCRYPTED_M1, GBF_VSFIGHT, FBF_SAMSHO,
 	NULL, samsh5hdRomInfo, samsh5hdRomName, NULL, NULL, neogeoInputInfo, neogeoDIPInfo,
 	samsho5Init, NeoExit, NeoFrame, NeoRender, NeoScan, &NeoRecalcPalette,
